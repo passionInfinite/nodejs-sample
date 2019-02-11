@@ -5,4 +5,4 @@ COPY . /home/nodejs-sample
 
 WORKDIR /home/nodejs-sample
 
-CMD ["npm", "deploy"]
+CMD ["npm", "run", "prod"]
